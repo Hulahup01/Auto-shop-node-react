@@ -1,0 +1,21 @@
+.brand-bar {
+    display: flex;
+}
+
+.brand-card {
+    cursor: pointer;
+    padding: 1rem;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-right: 0.5rem;
+}
+
+.brand-card:hover {
+    background-color: rgba(72, 113, 169, 0.3);
+}
+
+.brand-card.active {
+    background-color: #4871A9;
+    color: #fff;
+}
